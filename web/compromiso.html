@@ -1,0 +1,219 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>aplicacion</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!---- animated-css ---->
+		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+		<script type="text/javascript" src="js/jquery.corner.js"></script> 
+		<script src="js/wow.min.js"></script>
+		<script>
+		 new WOW().init();
+		</script>
+		<!---- animated-css ---->
+		<!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		 <!---- start-smoth-scrolling---->
+		<!----webfonts--->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+		<!---//webfonts--->
+		<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+	</head>
+	<body>
+		<div class="bg">
+		<!----- start-header---->
+		<div class="container">
+			<div id="home" class="headere wow bounceInDown" data-wow-delay="0.4s">
+					<div class="top-header">
+						<div class="logo">
+							<a href="#">Proyeccion Social</a>
+                            
+						</div>
+						<!----start-top-nav---->
+						 <nav class="top-nav ">
+							<ul class="top-nav">
+                                <br>
+                                <br>
+                                <br>
+								<li><a href="#about" class="scroll">Instrucciones</a></li>
+								<li><a href="#process" class="scroll">Resumen</a></li>
+							</ul>
+							<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!----- //End-header---->
+			<!---- banner-info ---->
+			<div class="clearfix"> </div>
+		</div>
+        			<!---- about ---->
+			<div id="about" class="about">
+				<div class="head-section">
+<!--
+					<div class="container">
+						<h3><span>about</span><label>ruddy .</label></h3>
+					</div>
+-->
+				</div>
+					<!--- about-grids ---->
+					<div class="about-grids about-grid about-grid1 wow fadeInLeft">
+                        <div class="col-md-2 about-grid about-grid1 wow fadeInLeft" data-wow-delay="0.4s">
+							<div class="about-grid-info">
+								
+							</div>
+						</div>
+						<div class="col-md-8 about-grid about-grid1 wow fadeInLeft" data-wow-delay="0.4s">
+							<div class="about-grid-info">
+								<h4><a href="#">INSTRUCCIONES</a></h4>
+								<p>
+                                <ol class="vinetas">
+                                   <li class="vinetas">Esta propuesta debe ser elaborada por un profesor de la EPN (profesor proponente) en coordinación con una organización externa a la EPN (organización colaboradora).</li>
+                                  <li class="vinetas">Identifique un problema o una necesidad en el medio externo a la EPN, que pueda ser resuelto/atendido mediante prácticas pre-profesionales (PPP) de los estudiantes.</li>
+                                  <li class="vinetas">Las PPP son actividades de aprendizaje que deben estar claramente relacionadas con la carrera del estudiante (pertinencia académica). 
+                                    <ol type="a">
+                                       <li class="vinetas">Defina con precisión el perfil del estudiante para este proyecto: qué debe saber (qué asignaturas debe haber aprobado), qué características personales se requieren.</li>
+                                       <li class="vinetas">Defina con precisión cómo contribuirán estas PPP a la formación profesional del estudiante (a cuáles resultados de aprendizaje establecidos en el perfil de egreso aporta).</li>
+                                        <li class="vinetas">Si la PPP está ligada directamente a una asignatura específica, identifique los resultados de aprendizaje de dicha asignatura que la PPP contribuirá a lograr, y el mecanismo de evaluación.</li> 
+                                     </ol>
+                                    </li>
+                                    <li class="vinetas">El proyecto debe tener un plazo definido para su ejecución.</li>
+                                    <li class="vinetas">La organización colaboradora debe comprometerse a servir como anfitriona de los estudiantes durante la realización de las PPP, y a proporcionar las facilidades y recursos necesarios para que los estudiantes cumplan exitosamente su trabajo.</li>
+                                    <li class="vinetas">En caso de existir beneficiarios externos a la organización colaboradora, ésta debe comprometerse a servir de nexo con dichos beneficiarios.</li>
+                               </ol>
+                                <p>
+                                  <button type="button" class="btn btn-default btn-lg active"><a href="seccion1.html">Siguiente</a></button>
+                                    <button type="button" class="btn btn-default btn-lg active"><a href="index.html">Cancelar</a></button>
+                                </p>
+                                </p>
+							</div>
+						</div>
+						<div class="col-md-2 about-grid about-grid1 wow fadeInLeft" data-wow-delay="0.4s">
+							<div class="about-grid-info">
+							</div>
+						</div>
+					<div class="clearfix"> </div>
+					</div>
+					<!--- /about-grids ---->
+				</div>
+			</div>
+			<!---- about ----> 
+			<!---- banner-info ---->
+			<!---- top-grids ---->	
+			<!--- process --->
+			<div id="process" class="processi">
+				<div class="head-section">
+					<div class="container">
+						<h3><span>Resumen</span></h3>
+                         <p>Llene este resumen DESPUÉS de haber completado las secciones 1-4.</p>
+                        <div class="process-grids text-center wow bounce" data-wow-delay="0.4s">
+						<div class="col-md-3 process-gridr" data-wow-delay="0.4s">
+						</div>
+						<div class="col-md-6 process-gridr" data-wow-delay="0.4s">
+							<form action="" method="POST" >
+                                <table class="table">
+                            <tbody>
+                              <tr>
+                                <td><label>Nombre del proyecto (máx 6 palabras):</label></td>
+                                <td><input type="text" name="nombre" /></td>
+                              </tr>
+                              <tr>
+                                <td><label>Profesor proponente:</label></td>
+                                <td><input type="text" name="profesor" /></td>
+                              </tr>
+                              <tr>
+                                <td><label>Facultad:</label></td>
+                                <td><input type="text" name="facultad" /></td>
+                              </tr>
+                            <tr>
+                                <td> <label>Carrera(s):</label></td>
+                                <td> <label class="checkbox-inline"><input type="checkbox" value="">ASI</label>
+                                <label class="checkbox-inline"><input type="checkbox" value="">ASA</label>
+                                <label class="checkbox-inline"><input type="checkbox" value="">ET</label>
+                                <label class="checkbox-inline"><input type="checkbox" value="">EM</label></td>
+                              </tr>
+                                <tr>
+                                <td><label>Organización colaboradora:</label></td>
+                                <td><input type="text" name="organizacion" /></td>
+                              </tr>
+                                <tr>
+                                <td><label>Número de beneficiarios, y descripción:</label></td>
+                                <td><input type="text" name="numero" /></td>
+                              </tr>
+                                <tr>
+                                <td><label>Número de estudiantes:</label></td>
+                                <td><input type="text" name="estudiantes" /></td>
+                              </tr>
+                                <tr>
+                                <td><label>Horas de PPP totales:</label></td>
+                                <td><input type="text" name="horas" /></td>
+                              </tr>
+                                <tr>
+                                <td><label>Fecha prevista de inicio:</label></td>
+                                <td><input type="date" name="finicio" /></td>
+                              </tr>
+                                <tr>
+                                <td><label>Fecha prevista de terminación:</label></td>
+                                <td><input type="date" name="fterminacion" /></td>
+                              </tr>
+                                <tr>
+                                <td><p>
+                            <input type="submit" value="Guardar Cambios" />
+                           </p></td>
+                                <td><p>
+                            <input type="submit" value="Cancelar" />
+                           </p></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                         </form>
+						</div>
+						<div class="col-md-3 process-gridr wow bounceInUp" data-wow-delay="0.4s">
+						</div>
+					</div>
+                        
+					</div>
+				</div>
+			</div>
+			<!--- process --->
+			<!--- blog ---->
+			</body>
+</html>
+

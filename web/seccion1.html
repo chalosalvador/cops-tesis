@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Seccion1</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!---- animated-css ---->
+		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+		<script type="text/javascript" src="js/jquery.corner.js"></script> 
+		<script src="js/wow.min.js"></script>
+		<script>
+		 new WOW().init();
+		</script>
+		<!---- animated-css ---->
+		<!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		 <!---- start-smoth-scrolling---->
+		<!----webfonts--->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+		<!---//webfonts--->
+		<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+	</head>
+	<body>
+		<div class="bg">
+		<!----- start-header---->
+		<div class="container">
+			<div id="home" class="headere wow bounceInDown" data-wow-delay="0.4s">
+					<div class="top-header">
+						<div class="logo">
+							<a href="#">Proyeccion Social</a>
+                            
+						</div>
+						<!----start-top-nav---->
+						 <nav class="top-nav ">
+							<ul class="top-nav">
+                                <br>
+                                <br>
+                                <br>
+								<li><a href="#process" class="scroll">Seccion 1</a></li>
+								
+							</ul>
+							<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!----- //End-header---->
+			<!---- banner-info ---->
+			<div class="clearfix"> </div>
+		</div>
+        			<!---- about ---->
+			<div id="about" class="about">
+				<div class="head-section">
+<!--
+					<div class="container">
+						<h3><span>about</span><label>ruddy .</label></h3>
+					</div>
+-->
+				</div>
+					<!--- about-grids ---->
+					<!--- /about-grids ---->
+				</div>
+			</div>
+			<!---- about ----> 
+			<!---- banner-info ---->
+			<!---- top-grids ---->	
+			<!--- process --->
+			<div id="process" class="processi">
+				<div class="head-section">
+					<div class="container">
+						<h3><span>ORGANIZACIÓN COLABORADORA</span></h3>
+                         <p class="vineta2">ESTA SECCIÓN ES OBLIGATORIA. LA ORGANIZACIÓN COLABORADORA PROPORCIONA EL VÍNCULO ENTRE LA EPN Y EL CONJUNTO DE LA SOCIEDAD. CUMPLE TRES ROLES FUNDAMENTALES: A) PERMITE IDENTIFICAR NECESIDADES ESPECÍFICAS, YA SEA DE LA MISMA ORGANIZACIÓN O DEL RESTO DE LA SOCIEDAD; B) ACTÚA COMO ANFITRIONA DE LOS ESTUDIANTES DURANTE LAS PRÁCTICAS PRE-PROFESIONALES; Y C) ES EL NEXO CON LOS BENEFICIARIOS, YA SEAN INTERNOS O EXTERNOS A LA ORGANIZACIÓN.</p>
+                        <div class="process-grids text-center wow bounce" data-wow-delay="0.4s">
+						<div class="col-md-2 process-gridr" data-wow-delay="0.4s">
+						</div>
+						<div class="col-md-8 process-gridr" data-wow-delay="0.4s">
+							<form action="" method="POST" >
+                                <table class="table">
+                            <tbody>
+                                <tr>  
+                                <td colspan="4"><label>Datos generales de la organización</label></td>
+                              </tr>
+                              <tr>  
+                                <td ><label>Nombre:</label></td>
+                                <td colspan="3"><input type="text" name="nom" /></td>
+                              </tr>
+                              <tr>
+                                <td ><label>Dirección:</label></td>
+                                <td colspan="3"><input type="text" name="dir" /></td>
+                              </tr>
+                              <tr>
+                                <td><label>Siglas</label></td>
+                                <td><input type="text" name="siglas" /></td>
+                                   <td><label>Web:</label></td>
+                                <td><input type="text" name="web" /></td>
+                              </tr>
+                                <tr>  
+                                <td colspan="4"><br><br><label>Persona de Contacto</label></td>
+                              </tr>
+                                <tr>
+                                <td><label>Nombre:</label></td>
+                                <td><input type="text" name="nomcontact" /></td>
+                                   <td><label>Telefonos:</label></td>
+                                <td><input type="text" name="telfcontact" /></td>
+                              </tr>
+                                <tr>
+                                <td><label>Cargo:</label></td>
+                                <td><input type="text" name="cargocontact" /></td>
+                                   <td><label>Email:</label></td>
+                                <td><input type="text" name="emailcontact" /></td>
+                              </tr>
+                                <tr>  
+                                <td colspan="4"><br><br><label>Tipo de organización</label></td>
+                              </tr>
+                            <tr>
+                                <td><label class="radio-inline"><input type="radio" name="optradio">Institución educativa</label></td>
+                                <td><label class="radio-inline"><input type="radio" name="optradio">Barrial, comunitaria</label></td>
+                                <td colspan="2"><label class="radio-inline"><input type="radio" name="optradio">Iglesia</label></td>
+                              </tr>
+                                <tr>
+                                <td><label class="radio-inline"><input type="radio" name="optradio">Asociación, gremio</label></td>
+                                <td><label class="radio-inline"><input type="radio" name="optradio">Empresa privada</label></td>
+                                <td colspan="2"><label class="radio-inline"><input type="radio" name="optradio">ONG</label></td>
+                              </tr>
+                                <tr>
+                                <td><label class="radio-inline"><input type="radio" name="optradio">Institución pública</label></td>
+                                <td><label class="radio-inline"><input type="radio" name="optradio">Empresa pública, mixta</label></td>
+                                <td colspan="2"><label class="radio-inline"><input type="radio" name="optradio">Otro : </label> <input type="text" name="otro" /></td>
+                              </tr>
+                                <tr>  
+                                <td colspan="4"><br><br><label>Descripción de la organización</label></td>
+                              </tr>
+                                <tr>  
+                                <td colspan="4"><p class="vineta2">Misión, productos/servicios que ofrece, población a la que sirve, cobertura geográfica, si es parte de otra organización, si trabaja independientemente o en colaboración con otras entidades, etc.</p></td>
+                              </tr>
+                                <tr>  
+                                <td colspan="4"><textarea class="form-control" rows="3"></textarea></td>
+                              </tr>
+                                <tr>  
+                                <td colspan="4"><br><br><label>Responsabilidades que asumirá en este proyecto</label></td>
+                              </tr>
+                            <tr>  
+                                <td colspan="4"><textarea class="form-control" rows="3"></textarea></td>
+                              </tr>     
+                                <tr>  
+                                <td colspan="4"><br><br><label>Recursos que la organización facilitará a los estudiantes de la EPN para este proyecto:</label></td>
+                              </tr>
+                                <tr>
+                                <td colspan="4"><label class="checkbox-inline"><input type="checkbox" value="">Espacio de trabajo</label>
+                                    <label class="checkbox-inline"><input type="checkbox" value="">Transporte</label>
+                                    <label class="checkbox-inline"><input type="checkbox" value="">Alimentación</label>
+                                    <label class="checkbox-inline"><input type="checkbox" value="">Uniforme</label>
+                                    <label class="checkbox-inline"><input type="checkbox" value="">Equipo de seguridad</label>
+                                    <label class="checkbox-inline"><input type="checkbox" value="">Uso de computadora</label>
+                                    <label class="checkbox-inline"><input type="checkbox" value="">Suministros</label>
+                                    <label class="checkbox-inline"><input type="checkbox" value="">Herramientas</label>
+                                    <label class="checkbox-inline"><input type="checkbox" value="">Otro : </label> <input type="text" name="otro" />
+                                </td>
+                                </tr>
+                                <tr>
+                                <td colspan="2"><button type="button" class="btn btn-default btn-lg active"><a href="seccion2.html">Siguiente</a></button></td>
+                                <td colspan="2"><button type="button" class="btn btn-default btn-lg active"><a href="compromiso.html">Cancelar</a></button></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                         </form>
+						</div>
+						<div class="col-md-2 process-gridr wow bounceInUp" data-wow-delay="0.4s">
+						</div>
+					</div>
+                        
+					</div>
+				</div>
+			</div>
+			<!--- process --->
+			<!--- blog ---->
+			</body>
+</html>
+

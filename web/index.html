@@ -1,0 +1,568 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>DIPS</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!---- animated-css ---->
+		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+		<script type="text/javascript" src="js/jquery.corner.js"></script> 
+		<script src="js/wow.min.js"></script>
+		<script>
+		 new WOW().init();
+		</script>
+		<!---- animated-css ---->
+		<!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		 <!---- start-smoth-scrolling---->
+		<!----webfonts--->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+		<!---//webfonts--->
+		<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+	</head>
+	<body>
+		<div class="bg">
+		<!----- start-header---->
+		<div class="container">
+			<div id="home" class="header wow bounceInDown" data-wow-delay="0.4s">
+					<div class="top-header">
+						<div class="logo">
+							<a href="#">Proyeccion Social</a>
+						</div>
+						<!----start-top-nav---->
+						 <nav class="top-nav">
+							<ul class="top-nav">
+								<li><a href="#about" class="scroll">Inicio</a></li>
+								<li><a href="#process" class="scroll">Aplicacion</a></li>
+								<li><a href="#port" class="scroll">Estudiantes</a></li>
+								<li class="page-scroll"><a href="#registro" class="scroll">Registro</a></li>
+								<li class="active-join" class="page-scroll"><a href="#contact" class="scroll">Contactanos</a></li>
+							</ul>
+							<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!----- //End-header---->
+			<!---- banner-info ---->
+			<div class="banner-info">
+				<div class="container">
+					<h1 class="wow fadeIn" data-wow-delay="0.5s"><span>Proyeccion Social</span><br /><label>PROYECTOS</label></h1>
+				<div class="top-banner-grids wow bounceInUp" data-wow-delay="0.4s">
+					<div class="banner-grid text-center">
+						<span class="top-icon1"> </span>
+						<h3>Entidades externas</h3>
+					</div>
+					<div class="banner-grid banner-grid-active text-center">
+						<span class="top-icon2"> </span>
+						<h3>Profesores</h3>
+					</div>
+					<div class="banner-grid text-center">
+						<span class="top-icon3"> </span>
+						<h3>Estudiantes</h3>
+					</div>
+<!--
+					<div class="banner-grid text-center">
+						<span class="top-icon4"> </span>
+						<h3>promotion</h3>
+					</div>
+					<div class="banner-grid text-center">
+						<span class="top-icon5"> </span>
+						<h3>sales</h3>
+					</div>
+-->
+					<div class="clearfix"> </div>
+				</div>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+        			<!---- about ---->
+			<div id="about" class="about">
+				<div class="head-section">
+<!--
+					<div class="container">
+						<h3><span>about</span><label>ruddy .</label></h3>
+					</div>
+-->
+				</div>
+					<!--- about-grids ---->
+					<div class="about-grids">
+						<div class="col-md-4 about-grid about-grid1 wow fadeInLeft" data-wow-delay="0.4s">
+							<div class="about-grid-info">
+								<h4><a href="#">Proyecci&oacute;n Social</a></h4>
+								<p>El Sistema de Investigaci&oacute;n y Proyecci&oacute;n Social de la Escuela Polit&eacute;cnica Nacional se concibe como el conjunto de pol&iacute;ticas, actores y elementos normativos, organizativos, funcionales y estructurales, que contribuyen a trav&eacute;s de sus interacciones a la creaci&oacute;n de un espacio com&uacute;n e integrado para el desarrollo eficaz y eficiente de las actividades de investigaci&oacute;n cient&iacute;fica, tecnol&oacute;gica, pedag&oacute;gica y de innovaci&oacute;n en la Escuela Polit&eacute;cnica Nacional y su vinculaci&oacute;n con el medio externo, con el prop&oacute;sito de resolver tanto problemas de la sociedad ecuatoriana como de inter&eacute;s mundial.</p>
+							</div>
+							<div class="about-grid-pic">
+							<img src="images/about-pic1.jpg" title="name" />
+							</div>
+						</div>
+						<div class="col-md-4 about-grid about-grid2 wow fadeInUp" data-wow-delay="0.4s">
+							<div class="about-grid-pic">
+							<img src="images/about-pic2.jpg" title="name" />
+							</div>
+							<div class="about-grid-info">
+								<h4><a href="#">Intervencion de Estudiantes</a></h4>
+								<p>En este contexto se presenta una propuesta de estructuración organizacional del Vicerrectorado de Investigación y Proyección Social, y la Dirección de Investigación y Proyección Social. </p>
+							</div>
+						</div>
+						<div class="col-md-4 about-grid about-grid1 wow fadeInRight" data-wow-delay="0.4s">
+							<div class="about-grid-info">
+								<h4><a href="#">Requisitos de Estudiantes</a></h4>
+								<p>El Vicerrectorado de Investigación y Proyección Social se propone tener una estructura organizacional y funcional de investigación, dinámica y autónoma, similar a las universidades de más alto prestigio a nivel mundial y generar una producción científica y tecnológica medidas por el número de documentos científicos publicados en las revistas indizadas de mayor impacto, por el número de patentes registradas, principalmente por el impacto social en la solución de problemas de la comunidad ecuatoriana.</p>
+							</div>
+							<div class="about-grid-pic">
+							<img src="images/about-pic3.jpg" title="name" />
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!--- /about-grids ---->
+				</div>
+			</div>
+			<!---- about ----> 
+			<!---- banner-info ---->
+			<!---- top-grids ---->
+			<div class="top-grids text-center">
+				<div class="container">
+					<div class="col-md-3 wow bounceIn" data-wow-delay="0.4s">
+						<div class="top-grid">
+							<span class="icon1"> </span>
+							<h3><a href="#">right strategy</a></h3>
+							<label> </label>
+							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,</p>
+						</div>
+					</div>
+					<div class="col-md-3 wow bounceIn" data-wow-delay="0.4s">
+						<div class="top-grid">
+							<span class="icon2"> </span>
+							<h3><a href="#">adaptive style</a></h3>
+							<label> </label>
+							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,</p>
+						</div>
+					</div>
+					<div class="col-md-3 wow bounceIn" data-wow-delay="0.4s">
+						<div class="top-grid">
+							<span class="icon3"> </span>
+							<h3><a href="#">money making</a></h3>
+							<label> </label>
+							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,</p>
+						</div>
+					</div>
+					<div class="col-md-3 wow bounceIn" data-wow-delay="0.4s">
+						<div class="top-grid">
+							<span class="icon4"> </span>
+							<h3><a href="#">brand keaping</a></h3>
+							<label> </label>
+							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,</p>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!---- top-grids ---->
+
+			
+			<!--- process --->
+			<div id="process" class="process">
+				<div class="head-section">
+					<div class="container">
+						<h3><span>Proceso</span><label>a seguir</label></h3>
+					</div>
+				</div>
+				<div class="container">
+					<div class="process-grids text-center wow bounce" data-wow-delay="0.4s">
+						<div class="col-md-3 process-grid process-grid1 wow bounceInUp" data-wow-delay="0.4s">
+							<span class="p-icon1"> </span>
+							<h4><a href="#">Tramitar</a></h4>
+						</div>
+						<div class="col-md-3 process-grid process-grid2 wow bounceInDown" data-wow-delay="0.4s">
+							<span class="p-icon2"> </span>
+							<h4><a href="#">Analizar</a></h4>
+						</div>
+						<div class="col-md-3 process-grid process-grid3 wow bounceInUp" data-wow-delay="0.4s">
+							<span class="p-icon3"> </span>
+							<h4><a href="#">Aprobar</a></h4>
+						</div>
+						<div class="col-md-3 process-grid process-grid4 wow bounceInDown" data-wow-delay="0.4s">
+							<span class="p-icon4"> </span>
+							<h4><a href="#">Ejecutar</a></h4>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!--- process --->
+			<!--- blog ---->
+			<div class="blog">
+				<div class="head-section">
+					<div class="container">
+						<h3><span>Experiencias</span><label>Y Proyectos</label></h3>
+					</div>
+				</div>
+				<!---- blog-grids ---->
+				<div class="blog-grids">
+					<div class="container"> 
+					<div class="blog-grids-left">
+							<div class="blog-grid-left wow bounceIn" data-wow-delay="0.4s">
+								<div class="blog-art-pic">
+									<img src="images/b1.jpg" title="name" />
+								</div>
+								<div class="blog-art-info">
+									<h3><a href="#">Docentes de la ESFOT realizando la capacitación. </a></h3>
+									<p>Según los organizadores el camino es largo, pero la voluntad es férrea; muchas personas se están uniendo para ayudar al reconocimiento de las zonas del desastre mediante el software OpenStreetMap.</p>
+									<ul class="blog-art-info-stags">
+										<li class="blog-art-info-stags-left"><span>12.11.2014</span></li>
+										<li class="blog-art-info-stags-right">
+											<ul>
+												<li><a href="#"> <label class="b-icon1"> </label>24</a></li>
+												<li><a href="#"> <label class="b-icon2"> </label>9</a></li>
+											</ul>
+										</li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+							</div>
+							<div class="blog-grid-left wow bounceIn" data-wow-delay="0.4s">
+								<div class="blog-art-pic">
+									<img src="images/b2.jpg" title="name" />
+								</div>
+								<div class="blog-art-info">
+									<h3><a href="#">Durante la capacitación dictada por docentes de la facultad de Ingeniería en Sistemas en donde asistieron más de 120 estudiantes. </a></h3>
+									<p>El día viernes 22 de abril varios voluntarios de todas las facultades de la EPN  se unieron a esta iniciativa que la impulsa MediaLab desde el pasado domingo y que llegó a nuestra institución a través de la gestión de un grupo de docentes de la ESFOT, también participaron en este proyecto docentes de las facultades de Ingeniería en Sistemas y de Eléctrica y Electrónica..</p>
+									<ul class="blog-art-info-stags">
+										<li class="blog-art-info-stags-left"><span>12.11.2014</span></li>
+										<li class="blog-art-info-stags-right">
+											<ul>
+												<li><a href="#"> <label class="b-icon1"> </label>24</a></li>
+												<li><a href="#"> <label class="b-icon2"> </label>9</a></li>
+											</ul>
+										</li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+							</div>
+						<div class="clearfix"> </div>
+						<!---- ---->
+						<div class="blog-grid-left-big wow bounceIn" data-wow-delay="0.4s">
+							<div class="blog-grid-left-big-info">
+								<div class="blog-art-info">
+									<h3><a href="#">El aula de la ESFOT  estuvo llena de voluntarios listos para "mapear". </a></h3>
+									<p>Cabe resaltar que el miércoles 20 de abril, varios estudiantes de la Escuela Politécnica Nacional realizaron un “mapatón” para reunir información de los puntos afectados; proyecto que puede ser desarrollado por otras universidades </p>
+									<ul class="blog-art-info-stags">
+										<li class="blog-art-info-stags-left"><span>12.11.2014</span></li>
+										<li class="blog-art-info-stags-right">
+											<ul>
+												<li><a href="#"> <label class="b-icon1"> </label>24</a></li>
+												<li><a href="#"> <label class="b-icon2"> </label>9</a></li>
+											</ul>
+										</li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+							</div>
+							<div class="blog-grid-left-big-pic">
+								<div class="blog-art-pic">
+									<img src="images/b4.jpg" title="name" />
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div class="blog-grids-right wow bounceIn" data-wow-delay="0.4s">
+						<div class="blog-grid-left blog-grid-right">
+								<div class="blog-art-pic">
+									<img src="images/b3.jpg" title="name" />
+								</div>
+								<div class="blog-art-info">
+									<h3><a href="#">Todo este grupo de “mapeadores” están representados por el hashtag #MappingEcuador.</a></h3>
+									<p>El taller fue completamente gratuito y no era necesario ser experto en mapeo, los capacitadores de la EPN se encargaron de explicar paso a paso cómo mapear.</p>
+									<ul class="blog-art-info-stags">
+										<li class="blog-art-info-stags-left"><span>12.11.2014</span></li>
+										<li class="blog-art-info-stags-right">
+											<ul>
+												<li><a href="#"> <label class="b-icon1"> </label>24</a></li>
+												<li><a href="#"> <label class="b-icon2"> </label>9</a></li>
+											</ul>
+										</li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+							</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<!---- blog-grids ---->
+				</div>
+			</div>
+			<!--- blog ---->
+			<!--- portfolio ---->
+			<div id="port" class="portfolio">
+				<div class="head-section">
+					<div class="container">
+						<h3>portfolio .</h3>
+					</div>
+				</div>
+				<!--- Portfolio --->
+			<div id="port" class="portfolio-box">
+				
+					<!---- start-portfolio-script----->
+					<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+					<script type="text/javascript">
+						$(function () {
+							var filterList = {
+								init: function () {
+								
+									// MixItUp plugin
+									// http://mixitup.io
+									$('#portfoliolist').mixitup({
+										targetSelector: '.portfolio',
+										filterSelector: '.filter',
+										effects: ['fade'],
+										easing: 'snap',
+										// call the hover effect
+										onMixEnd: filterList.hoverEffect()
+									});				
+								
+								},
+								hoverEffect: function () {
+									// Simple parallax effect
+									$('#portfoliolist .portfolio').hover(
+										function () {
+											$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+											$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+										},
+										function () {
+											$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+											$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+										}		
+									);				
+								
+								}
+					
+							};
+							// Run the show!
+							filterList.init();
+						});	
+					</script>
+					<div class="container">
+						<!----//End-portfolio-script----->
+						<ul id="filters" class="clearfix">
+							<li class="filtter-color1"><span class="filter active" data-filter="app card icon logo web">ASI</span></li>
+							<li class="filtter-color2"><span class="filter" data-filter="app">ET</span></li>
+							<li class="filtter-color3"><span class="filter" data-filter="card">EM</span></li>
+							<li class="filtter-color4"><span class="filter" data-filter="icon">ASA</span></li>
+						</ul>
+					</div>
+					<div id="portfoliolist">
+					<div class="portfolio logo1 mix_all port-big-grid wow bounceIn" data-wow-delay="0.5s" data-cat="logo" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/portpic1.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>heading of project</h4>
+						     			<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>				
+					<div class="portfolio app mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/portpic2.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>heading of project</h4>
+						     			<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>		
+					<div class="portfolio web mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="web" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/portpic3.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>heading of project</h4>
+						     			<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>				
+					<div class="portfolio icon mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="icon" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/portpic4.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>heading of project</h4>
+						     			<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>	
+					<div class="portfolio app mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/portpic5.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>heading of project</h4>
+						     			<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>			
+					<div class="portfolio card mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/portpic6.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>heading of project</h4>
+						     			<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>	
+					<div class="portfolio icon mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="icon" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/portpic7.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>heading of project</h4>
+						     			<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>	
+					<div class="portfolio app mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/portpic8.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>heading of project</h4>
+						     			<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>			
+					<div class="portfolio card mix_all wow bounceIn" data-wow-delay="0.5s" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/portpic9.jpg" /><div class="b-wrapper">
+						     	<h2 class="b-animate b-from-left    b-delay03 ">
+						     		<div class="caption">
+						     			<h4>heading of project</h4>
+						     			<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+						     		</div>
+						     	</h2>
+						  	</div></a>
+		                </div>
+					</div>	
+					<div class="clearfix"> </div>	
+				</div>
+			</div>
+				</div>
+			</div>
+			<!---- work-with-us---->
+			<div id="registro" class="work-with-us text-center">
+				<div class="container">
+					<h4>Registra tu Proyecto </h4>
+					<p>Aplicación para Proyecto de Vinculación</p>
+					<a class="catch-me wow shake" data-wow-delay="0.3s" href="compromiso.html">AQUI</a>
+				</div>
+			</div>
+			
+			<!---- Team ----->
+			<!---- map ---->
+			<div id="contact" class="map">
+				<div class="map-location">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7914752035335!2d-78.49087988537369!3d-0.210181335457803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a107e1cd44b%3A0x88a284f66939ed4!2sEscuela+Polit%C3%A9cnica+Nacional!5e0!3m2!1ses!2sec!4v1455510416117" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+			<!---- map ---->
+			<div class="clearfix"> </div>
+			<!---- footer --->
+			<div class="footer text-center">
+				<div class="container">
+					<div class="footer-inner wow zoomIn" data-wow-delay="0.3s">
+						<ul>
+							<li><a href="#"><img src="images/prin.png" WIDTH=78 HEIGHT=80  title="ruddy" /></a></li>
+							<li><ul>
+                                <li class="vinetas">Ladrón de Guevara E11·253
+                                <br>[PO·Box 17-01-2759]
+                                    <br><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>  (+593) 2 2976 300
+                                <br>Quito · Ecuador</li>
+                                <br>
+                                </ul>
+                            </li>
+						</ul>
+					</div>
+					<script type="text/javascript">
+									$(document).ready(function() {						
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+			</div>
+			<!---- footer --->
+		</div>
+	</body>
+</html>
+
